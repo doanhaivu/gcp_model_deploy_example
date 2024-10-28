@@ -16,3 +16,7 @@ poetry install
 ## Deployment
 
 Activate cloudbuild in your GCP project
+
+we can just run `make run_grc_build` to build and push the dockerized API to GCP.
+
+We can just run `make cloud_run_deploy` to deploy the app to Cloud run in less than a minute.
